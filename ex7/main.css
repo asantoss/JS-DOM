@@ -1,3 +1,13 @@
+@keyframes collapse {
+    from {
+        display: none;
+    }
+
+    to {
+        display: block;
+    }
+}
+
 #section-header {
     background-color: blue;
     color: white;
@@ -12,4 +22,8 @@
 
 #section {
     padding: 5px;
+}
+
+.hidden {
+    display: none;
 }
