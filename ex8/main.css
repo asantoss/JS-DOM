@@ -2,6 +2,13 @@
     max-width: 480px;
     margin: auto;
 }
-#description, #search, #todo-list {
+
+#description,
+#search,
+#todo-list {
     font-size: 1.5em;
+}
+
+.finished {
+    text-decoration: line-through;
 }
